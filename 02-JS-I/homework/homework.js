@@ -190,7 +190,8 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return base*altura;
+  var area = base*altura;
+  return area/2
 }
 
 
@@ -210,7 +211,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   var vocales = ["a","e","i","o","u"]
-  if (letra===vocales){return "Es vocal"} else { return "dato incorrecto"}
+  if (letra===vocales){return "Es vocal";} else { return "Dato icorrecto";}
 }
 
 
